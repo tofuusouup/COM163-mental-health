@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(78, 137, 172);
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(wcsu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+h1, h2, h3 {
+    margin: 0px;
+    text-align: center;
+}
+hr {
+    color: white;
+}
+#container {
+    background-color: rgb(78, 137, 172);
+    width: 1024px;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+#nav {
+    background-color: rgb(78, 137, 172);
+    color: white;
+    max-width: 1024px;
+    float: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-decoration: none;
+    .nav-button {
+        background: rgb(153, 153, 153);
+        color: white;
+        border: dashed;
+        border-color: black;
+        padding: 10px;
+        width: 175px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+    }
+    .nav-button:hover {
+        opacity: 0.7;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        text-decoration: none;
+    }
+}
+#main {
+    background-color: rgb(78, 137, 172);
+    color: white;
+    padding: 20px;
+    .nav-button {
+        background: rgb(153, 153, 153);
+        color: white;
+        border: dashed;
+        border-color: black;
+        padding: 10px;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+    }
+    .nav-button:hover {
+        opacity: 0.7;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        text-decoration: none;
+    }
+}
+#form {
+    background-color: rgb(78, 137, 172);
+    text-align: center;
+}
+#footer {
+    background-color: rgb(78, 137, 172);
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bold;
+    font-size: small;
+    color:black;
+}
